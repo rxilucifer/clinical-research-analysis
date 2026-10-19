@@ -1,0 +1,5 @@
+trial,drug,year,n_randomised,population,hr,ci_low,ci_high,source_note
+EMPA-REG OUTCOME,Empagliflozin,2015,7020,T2D with established CVD,0.86,0.74,0.99,Zinman et al. NEJM 2015;373:2117 (95.02% CI)
+CANVAS Program,Canagliflozin,2017,10142,T2D with established CVD or multiple risk factors,0.86,0.75,0.97,Neal et al. NEJM 2017;377:644
+DECLARE-TIMI 58,Dapagliflozin,2019,17160,T2D with established ASCVD or multiple risk factors,0.93,0.84,1.03,Wiviott et al. NEJM 2019;380:347
+VERTIS-CV,Ertugliflozin,2020,8246,T2D with established ASCVD,0.97,0.85,1.11,Cannon et al. NEJM 2020;383:1425 (95.6% CI)

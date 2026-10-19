@@ -18,7 +18,7 @@ Loprinzi CL, et al. J Clin Oncol 1994;12(3):601-607.
 - [x] Phase 2: Data preparation and Table 1
 - [x] Phase 3: Kaplan-Meier curves and log-rank test
 - [x] Phase 4: Cox regression
-- [ ] Phase 5: Meta-analysis
+- [x] Phase 5: Meta-analysis
 - [ ] Phase 6: Paper-style report
 
 ## How to run
@@ -28,6 +28,7 @@ Loprinzi CL, et al. J Clin Oncol 1994;12(3):601-607.
 4. `python km_analysis.py` draws Kaplan-Meier curves and runs the log-rank tests
 5. `python cox_analysis.py` fits the Cox models and checks the proportional hazards assumption
 6. `python ph_window_check.py` compares hazard ratios in early and late follow-up
+7. `python meta_analysis.py` pools four published trials and draws a forest plot
 
 ## Documents
 - [Statistical analysis plan](docs/statistical_analysis_plan.md)
@@ -35,6 +36,8 @@ Loprinzi CL, et al. J Clin Oncol 1994;12(3):601-607.
 - [Kaplan-Meier results](docs/km_results.md)
 - [Cox regression results](docs/cox_results.md)
 - [Time-window check of proportional hazards](docs/ph_window_check.md)
+- [Meta-analysis plan](docs/meta_analysis_plan.md)
+- [Meta-analysis results](docs/meta_results.md)
 
 ## Kaplan-Meier results
 
@@ -53,3 +56,9 @@ Unadjusted comparison of overall survival by sex. Full tables and the explorator
 **What this does not show.** These are associations in observational data and do not show that sex or performance status causes a difference in survival.
 
 Details: [Cox results](docs/cox_results.md) and [time-window check](docs/ph_window_check.md).
+
+## Meta-analysis
+
+![Forest plot](images/meta_forest.png)
+
+A small teaching meta-analysis of four cardiovascular outcome trials of SGLT2 inhibitors in type 2 diabetes (3-point MACE). Hazard ratios come from the primary publications. This is not a systematic review. See [docs/meta_results.md](docs/meta_results.md) for results and limits.
