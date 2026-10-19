@@ -1,0 +1,5 @@
+Variable,Correlation of residuals with time,p,Reading
+Female vs male,-0.26,<0.001,possible violation
+"Age, per 10 years",-0.05,0.487,no clear sign of a problem
+ECOG 1 vs ECOG 0,0.13,0.096,no clear sign of a problem
+ECOG 2 or higher vs ECOG 0,0.27,<0.001,possible violation

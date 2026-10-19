@@ -1,0 +1,5 @@
+Variable,HR early (day 0 to 300),HR late (after day 300),"Ratio of HRs, late vs early (95% CI)",p for difference
+Female vs male,0.47 (0.30 to 0.73),0.78 (0.47 to 1.30),1.67 (0.85 to 3.29),0.139
+"Age, per 10 years",1.05 (0.83 to 1.31),1.23 (0.91 to 1.68),1.18 (0.80 to 1.73),0.400
+ECOG 1 vs ECOG 0,1.92 (1.09 to 3.38),1.11 (0.63 to 1.97),0.58 (0.26 to 1.29),0.182
+ECOG 2 or higher vs ECOG 0,3.87 (2.11 to 7.08),1.28 (0.61 to 2.70),0.33 (0.13 to 0.86),0.024
