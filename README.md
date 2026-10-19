@@ -16,7 +16,7 @@ Loprinzi CL, et al. J Clin Oncol 1994;12(3):601-607.
 ## Status
 - [x] Phase 1: Setup and statistical analysis plan
 - [x] Phase 2: Data preparation and Table 1
-- [ ] Phase 3: Kaplan-Meier curves and log-rank test
+- [x] Phase 3: Kaplan-Meier curves and log-rank test
 - [ ] Phase 4: Cox regression
 - [ ] Phase 5: Meta-analysis
 - [ ] Phase 6: Paper-style report
@@ -25,8 +25,17 @@ Loprinzi CL, et al. J Clin Oncol 1994;12(3):601-607.
 1. `pip install -r requirements.txt`
 2. `python get_data.py` downloads the data into `data/lung.csv`
 3. `python prepare_data.py` checks the data, creates `data/analysis_data.csv` and builds Table 1
+4. `python km_analysis.py` draws Kaplan-Meier curves and runs the log-rank tests
 
 ## Documents
 - [Statistical analysis plan](docs/statistical_analysis_plan.md)
 
 - [Table 1: baseline characteristics](docs/table1.md)
+
+- [Kaplan-Meier results](docs/km_results.md)
+
+## Kaplan-Meier results
+
+![Kaplan-Meier curves by sex](images/km_by_sex.png)
+
+Unadjusted comparison of overall survival by sex. Full tables and the exploratory performance status analysis are in [docs/km_results.md](docs/km_results.md).
