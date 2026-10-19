@@ -47,7 +47,7 @@ Unadjusted comparison of overall survival by sex. Full tables and the explorator
 
 ## Cox regression results
 
-![Forest plot](images/forest_plot.png)
+![Forest plot of adjusted hazard ratios](images/forest_plot.png)
 
 **Main finding.** Women had a lower rate of death than men: hazard ratio 0.59 (95% CI 0.42 to 0.82) unadjusted, and 0.58 (0.41 to 0.80) adjusted for age and performance status. Adjustment changed the estimate very little. A worse performance status was associated with a higher rate of death (ECOG 2 or higher vs 0: HR 2.50, 1.60 to 3.90). Age showed no clear association (HR 1.12 per 10 years, 0.93 to 1.34).
 
@@ -59,6 +59,8 @@ Details: [Cox results](docs/cox_results.md) and [time-window check](docs/ph_wind
 
 ## Meta-analysis
 
-![Forest plot](images/meta_forest.png)
+![Forest plot of the meta-analysis](images/meta_forest.png)
 
-A small teaching meta-analysis of four cardiovascular outcome trials of SGLT2 inhibitors in type 2 diabetes (3-point MACE). Hazard ratios come from the primary publications. This is not a systematic review. See [docs/meta_results.md](docs/meta_results.md) for results and limits.
+A small teaching meta-analysis of four cardiovascular outcome trials of SGLT2 inhibitors in type 2 diabetes (3-point MACE). Hazard ratios come from the primary publications. This is not a systematic review.
+
+**Result.** Pooled hazard ratio 0.91 (95% CI 0.85 to 0.97; random effects), with no heterogeneity detected (I-squared 0%, Q p = 0.50), which has low power with four trials. Leaving out any one trial gave estimates between 0.89 and 0.92, but the upper limit rose to 0.98 or 0.99 when EMPA-REG OUTCOME or the CANVAS Program was left out. See [docs/meta_results.md](docs/meta_results.md) for results and limits.
