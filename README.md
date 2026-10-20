@@ -19,7 +19,7 @@ Loprinzi CL, et al. J Clin Oncol 1994;12(3):601-607.
 - [x] Phase 3: Kaplan-Meier curves and log-rank test
 - [x] Phase 4: Cox regression
 - [x] Phase 5: Meta-analysis
-- [ ] Phase 6: Paper-style report
+- [x] Phase 6: Paper-style report
 
 ## How to run
 1. `pip install -r requirements.txt`
