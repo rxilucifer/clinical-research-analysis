@@ -58,3 +58,4 @@ Not included: CREDENCE and similar trials in kidney disease or heart failure pop
 | Date | Change | Reason |
 |---|---|---|
 | 2026-10-20 | The plan text was saved into this file | The file was empty when the meta-analysis was run on 19 October 2026. The plan had been drafted beforehand, but it was not saved in the repository until now. The analysis followed this plan. |
+| 2026-10-20 | Hazard ratios and intervals in data/meta_trials.csv were checked against the PubMed abstracts of the four primary publications | Confirms the extracted data. All four matched. |
