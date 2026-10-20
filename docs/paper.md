@@ -1,8 +1,6 @@
 # Survival by sex and performance status in advanced lung cancer: an analysis of the NCCTG cohort
 
-**Author:** Dr. Raj Akil Nomani
-**Date:** 20 October 2026
-**Type:** Learning project. Not clinical advice.
+**Author:** Dr. Raj Akil Nomani | **Date:** 20 October 2026 | **Type:** Learning project. Not clinical advice.
 
 ## Abstract
 

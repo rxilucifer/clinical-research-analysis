@@ -11,7 +11,7 @@ from pathlib import Path
 import pandas as pd
 from statsmodels.duration.survfunc import survdiff
 
-AUTHOR = "[Dr. Raj Akil Nomani]"  # change this to your name
+AUTHOR = "Dr. Raj Akil Nomani"
 
 Path("docs").mkdir(exist_ok=True)
 
@@ -130,9 +130,7 @@ today = date.today().strftime("%d %B %Y")
 
 paper = f"""# Survival by sex and performance status in advanced lung cancer: an analysis of the NCCTG cohort
 
-**Author:** {AUTHOR}
-**Date:** {today}
-**Type:** Learning project. Not clinical advice.
+**Author:** {AUTHOR} | **Date:** {today} | **Type:** Learning project. Not clinical advice.
 
 {banner}## Abstract
 
