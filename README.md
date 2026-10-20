@@ -29,7 +29,7 @@ Loprinzi CL, et al. J Clin Oncol 1994;12(3):601-607.
 5. `python cox_analysis.py` fits the Cox models and checks the proportional hazards assumption
 6. `python ph_window_check.py` compares hazard ratios in early and late follow-up
 7. `python meta_analysis.py` pools four published trials and draws a forest plot
-
+8. `python make_paper.py` assembles the paper-style report in `docs/paper.md`
 ## Documents
 - [Statistical analysis plan](docs/statistical_analysis_plan.md)
 - [Table 1: baseline characteristics](docs/table1.md)
@@ -38,6 +38,7 @@ Loprinzi CL, et al. J Clin Oncol 1994;12(3):601-607.
 - [Time-window check of proportional hazards](docs/ph_window_check.md)
 - [Meta-analysis plan](docs/meta_analysis_plan.md)
 - [Meta-analysis results](docs/meta_results.md)
+- [Paper-style report](docs/paper.md)
 
 ## Kaplan-Meier results
 
